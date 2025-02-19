@@ -15,6 +15,6 @@ int main()
     {
         printf("%d", popArr(s));
     }
-
+    stack_arr_destructor(s);
     return 0;
 }
